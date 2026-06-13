@@ -1,0 +1,97 @@
+/* 后台管理样式 */
+.dscs-admin-wrap .dscs-card {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.dscs-admin-wrap .dscs-card h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 12px;
+}
+
+.dscs-admin-wrap .form-table th {
+    width: 180px;
+}
+
+.dscs-status {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.dscs-status.dscs-ok {
+    color: #059669;
+    background: #ecfdf5;
+}
+
+.dscs-status.dscs-err {
+    color: #dc2626;
+    background: #fef2f2;
+}
+
+.dscs-stats-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.dscs-stat-item {
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px 24px;
+    min-width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dscs-stat-num {
+    font-size: 28px;
+    font-weight: 700;
+    color: #4F46E5;
+}
+
+.dscs-stat-label {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 4px;
+}
+
+.dscs-upload-area {
+    padding: 8px 0;
+}
+
+.dscs-upload-area input[type="file"] {
+    display: block;
+    margin-bottom: 12px;
+}
+
+#dscs-upload-result {
+    margin-top: 12px;
+}
+
+#dscs-upload-result .success {
+    color: #059669;
+    font-weight: 500;
+}
+
+#dscs-upload-result .error {
+    color: #dc2626;
+    font-weight: 500;
+}
+
+.dscs-empty {
+    color: #94a3b8;
+    font-style: italic;
+}
